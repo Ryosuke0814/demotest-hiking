@@ -1,0 +1,230 @@
+/*---------------------------
+
+リセットCSS
+
+----------------------------*/
+*{
+  padding: 0;
+  margin: 0;
+}
+/*---------------------------
+
+ヘッダー
+
+----------------------------*/
+header{
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px;
+}
+header h1{
+  margin-left: 40px;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+header nav ul li{
+  width: 100px;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  color: deeppink;
+}
+/*---------------------------
+
+ヒーローイメージ
+
+----------------------------*/
+main .hero{
+  display: flex;
+  justify-content: space-around;
+  background: url(img/four.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+  flex-wrap: wrap;
+}
+main .hero .left{
+  padding: 50px;
+}
+main .hero .left h2{
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+main .hero .left p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+main .hero .left a{
+  display: inline-block;
+  padding: 20px 100px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 40px;
+}
+main .hero .left a:hover{
+  background-color: gray;
+}
+main .hero .right{
+  padding: 50px;
+}
+main .hero .right img{
+  display: block;
+  width: 500px;
+  border: 20px solid white;
+  box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+/*---------------------------
+
+アバウト
+
+----------------------------*/
+.about{
+  background-color: white;
+  padding: 30px;
+}
+.about h2{
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about .flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.about .flex .box{
+  width: 400px;
+  margin-bottom: 30px;
+}
+.about .flex .box img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.about .flex .box h3{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about .flex .box p{
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.about .flex .box a{
+  display: inline-block;
+  padding: 20px 80px;
+  background-color: deeppink;
+  color: white;
+  text-decoration: none;
+}
+/*---------------------------
+
+コンテンツ
+
+----------------------------*/
+.contents .flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: lightpink;
+  padding:100px 50px;
+}
+.contents .reverse{
+  flex-direction: row-reverse;
+  background-color: white;
+}
+.contents .box img{
+  width:500px;
+}
+.contents .box h3{
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contents .box p{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.contents .box p span{
+  color:red;
+}
+.contents .box a{
+    display: inline-block;
+    padding: 20px 100px;
+    margin-top: 30px;
+    background-color: white;
+    border: 5px solid black;
+    color: black;
+    text-decoration: none;
+}
+/*---------------------------
+
+フッター
+
+----------------------------*/
+footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+footer .flex{
+  display: flex;
+  justify-content: space-between;
+}
+footer .left{
+  padding: 20px;
+}
+footer h3{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+footer .left address{
+
+}
+footer .left address ul{
+  list-style: none;
+}
+footer .center{
+  padding: 20px
+}
+footer .center ul{
+  list-style: none;
+}
+footer .center ul li{
+  margin-bottom: 10px;
+}
+footer .center ul li a{
+  color: white;
+  text-decoration: none;
+}
+footer .center ul li a:hover{
+  color: skyblue;
+}
+footer .right{
+  padding: 20px;
+}
+footer .right img{
+  width: 300px;
+  border: 5px solid white;
+  box-shadow: 5px 5px white;
+}
